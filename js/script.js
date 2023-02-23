@@ -9,10 +9,11 @@
         const portrait = document.querySelector(".js-portrait")
         const portraitPrev = document.querySelector(".js-portraitPrev");
         const portraitNext = document.querySelector(".js-portraitNext");
-        buttonPrev.addEventListener("click", () => {
-            // body.classList.toggle("body--light");
-
-            // body.classList.contains("body--light") ? button.innerText = "Przyciemnij tło" : button.innerText = "Rozjaśnij tło";
+        portraitNext.addEventListener("click", () => {
+            portrait.classList.add("section__portrait2");
+        });
+        portraitPrev.addEventListener("click", () => {
+            portrait.classList.remove("section__portrait2");
         });
     }
     changePortrait();

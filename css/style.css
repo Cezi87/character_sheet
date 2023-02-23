@@ -29,10 +29,36 @@ html {
     letter-spacing: 2px;
 }
 
-.section__portrait {
+.section__portrait1 {
     width: 200px;
+    height: 200px;
     border: 2px solid #a9a9a9;
     padding: 10px;
+    background: url("../images/ja.jpg");
+    background-size: 180px 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section__portrait2 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #a9a9a9;
+    padding: 10px;
+    background: url("../images/ja2.jpg");
+    background-size: 180px 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section__button {
+    font-family: 'Hahmlet', serif;
+    font-weight: 500;
+    width: 98px;
+    height: 25px;
+    color: #252525;
+    background-color: #d6b136;
+    text-transform: capitalize;
 }
 
 .link {
