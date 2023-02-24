@@ -30,6 +30,10 @@ html {
     letter-spacing: 2px;
 }
 
+.section {
+    padding: 7px;
+}
+
 .section__header {
     color: #d6b136;
 }
@@ -64,6 +68,11 @@ html {
     color: #252525;
     background-color: #a9a9a9;
     text-transform: capitalize;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
 }
 
 /* .link {
