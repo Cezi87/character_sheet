@@ -21,61 +21,75 @@
     <header class="header">
         <h1 class="header__header">Character Sheet</h1>
     </header>
-    <section class="section">
-        <h2 class="section__header">Character Details</h2>
-        <article>
-            <h3 class="article__header">Name</h3>
-        </article>
-        <article>
-            <h3 class="article__header">Class</h3>
-        </article>
-        <article>
-            <h3 class="article__header">Portrait</h3>
-            <div class="js-portrait section__portrait1"></div><br>
-            <button type="button" class="js-portraitPrev section__button">prev</button><button
-                type="button" class="js-portraitNext section__button">next</button>
-        </article>
-    </section>
-    <section class="section">
-        <h2 class="section__header">Basic Stats</h2>
-        <ul>
-            <li>Strengh</li>
-            <li>Endurance</li>
-            <li>Vitality</li>
-            <li>Dexterity</li>
-        </ul>
-    </section>
-    <section class="section">
-        <h2 class="section__header">Equipment</h2>
-        <ul>
-            <li>Weapon</li>
-            <li>Shield</li>
-            <li>Helmet</li>
-            <li>Amor</li>
-        </ul>
-    </section>
-    <section class="section">
-        <h2 class="section__header">Final stats</h2>
-        <ul>
-            <li>Damage</li>
-            <li>Damage type</li>
-            <li>Health Points</li>
-            <li>Armor Class</li>
-            <li>Carry Weight</li>
-            <li>Attack & Block Speed</li>
-            <li>Movement Speed</li>
-            <li>Chance to hit</li>
-            <li>Pose</li>
-            <li>Elemental resistance</li>
-            <li>Poison resistance</li>
-        </ul>
-    </section>
-    <section class="section">
-        <h2 class="section__header">Description</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam aspernatur praesentium pariatur veritatis
-            molestias tempore id qui aliquam, dolor facere dolorem similique animi modi aperiam et explicabo officia
-            excepturi quam?</p>
-    </section>
+    <form>
+        <section class="section">
+            <h2 class="section__header">Character Details</h2>
+            <p>
+                <label>
+                    <span class="form__labelText">Name</span>
+                    <input class="form__field" type="text" name="name" minlength="3" maxlength="15" autofocus required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span class="form__labelText">Class</span>
+                    <select class="js-charClass form__field form__field--select" name="charClass" required>
+                        <option value="Warrior" selected>Warrior</option>
+                        <option value="Bandit">Bandit</option>
+                        <option value="Knight">Knight</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span class="form__labelText">Portrait</span>
+                    <div class="js-portrait section__portrait1"></div><br>
+                    <button type="button" class="js-portraitPrev section__button">prev</button><button type="button"
+                        class="js-portraitNext section__button">next</button>
+                </label>
+            </p>
+        </section>
+        <section class="section">
+            <h2 class="section__header">Basic Stats</h2>
+            <ul>
+                <li>Strengh</li>
+                <li>Endurance</li>
+                <li>Vitality</li>
+                <li>Dexterity</li>
+            </ul>
+        </section>
+        <section class="section">
+            <h2 class="section__header">Equipment</h2>
+            <ul>
+                <li>Weapon</li>
+                <li>Shield</li>
+                <li>Helmet</li>
+                <li>Amor</li>
+            </ul>
+        </section>
+        <section class="section">
+            <h2 class="section__header">Final stats</h2>
+            <ul>
+                <li>Damage</li>
+                <li>Damage type</li>
+                <li>Health Points</li>
+                <li>Armor Class</li>
+                <li>Carry Weight</li>
+                <li>Attack & Block Speed</li>
+                <li>Movement Speed</li>
+                <li>Chance to hit</li>
+                <li>Pose</li>
+                <li>Elemental resistance</li>
+                <li>Poison resistance</li>
+            </ul>
+        </section>
+        <section class="section">
+            <h2 class="section__header">Description</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam aspernatur praesentium pariatur veritatis
+                molestias tempore id qui aliquam, dolor facere dolorem similique animi modi aperiam et explicabo officia
+                excepturi quam?</p>
+        </section>
+    </form>
     <footer class="footer">Cezary Głodek 2023 ©</footer>
 </body>
 
