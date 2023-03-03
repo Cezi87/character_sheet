@@ -84,7 +84,7 @@ html {
 .form__field {
     font-family: 'Hahmlet', serif;
     font-weight: 600;
-    letter-spacing:0.1em;
+    letter-spacing:0.05em;
     background-color: #a9a9a9;
     padding: 10px;
     margin: 10px;
