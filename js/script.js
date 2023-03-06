@@ -1,31 +1,40 @@
 {
     const welcome = () => {
         console.log("Welcome to all developers!");
-    }
+    };
     welcome();
 
+    // const basicStats = () => {
+    //     let charPoolElement = document.querySelector("js-characterPool");
+    //     select.addEventListener("change", () => {
+    //         const selectedOption = select.value;
+
+    //         // Set the class of the portrait element based on the selected option
+    //         charPoolElement 
+    //     });
+    // };
+    // basicStats();
+
     const portrait = () => {
-
-        const select = document.querySelector('.js-charClass');
-        const portrait = document.querySelector('.js-portrait');
-
-        select.addEventListener('change', () => {
-            const selectedPortrait = select.value;
+        const charClassElement = document.querySelector(".js-charClass");
+        const portraitElement = document.querySelector(".js-portrait");
+        charClassElement.addEventListener("change", () => {
+            const selectedPortrait = charClassElement.value;
             switch (selectedPortrait) {
-                case 'Warrior':
-                    portrait.className = 'js-portrait section__portraitWarrior';
+                case "Warrior":
+                    portraitElement.className = "section__portraitWarrior";
                     break;
-                case 'Bandit':
-                    portrait.className = 'js-portrait section__portraitBandit';
+                case "Bandit":
+                    portraitElement.className = "section__portraitBandit";
                     break;
-                case 'Knight':
-                    portrait.className = 'js-portrait section__portraitKnight';
+                case "Knight":
+                    portraitElement.className = "section__portraitKnight";
                     break;
                 default:
-                    portrait.className = 'js-portrait section__portraitWarrior';
+                    portraitElement.className = "section__portraitWarrior";
                     break;
             }
         });
-    }
+    };
     portrait();
 }
