@@ -40,7 +40,7 @@ html {
     font-weight: 300;
 }
 
-.section__portrait1 {
+.section__portraitWarrior {
     width: 200px;
     height: 200px;
     border: 2px solid #a9a9a9;
@@ -51,7 +51,18 @@ html {
     background-position: center;
 }
 
-.section__portrait2 {
+.section__portraitBandit {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #a9a9a9;
+    padding: 10px;
+    background: url("../images/ja2.jpg");
+    background-size: 180px 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section__portraitKnight {
     width: 200px;
     height: 200px;
     border: 2px solid #a9a9a9;
