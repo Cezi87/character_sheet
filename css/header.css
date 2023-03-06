@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.header__header {
+    color: #d6b136;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 20px;
+}

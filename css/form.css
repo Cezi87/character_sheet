@@ -1,0 +1,24 @@
+.form__labelText {
+    width: 100%;
+    max-width: 120px;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 17px;
+    padding: 5px;
+}
+
+.form__field {
+    font-family: 'Hahmlet', serif;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    background-color: #a9a9a9;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 3px;
+}
+
+.form__field:hover  {
+    background-color: #949494;    
+}
